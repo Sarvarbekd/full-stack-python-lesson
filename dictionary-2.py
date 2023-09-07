@@ -121,26 +121,27 @@
 #     print(f"{user.upper()}ning poytaxti {poytaxt.title()}")
 
 
-menu = {
-    'osh':15000,
-    'mastava':12000,
-    'non':3000,
-    'shashlik':16000,
-    'manti':6000,
-    'norin':9000,
-    'xonim':5000,
-    'salat':4000
-}
-print("3 ta buyurtma bering:")
-buyurtma = []
-for n in range(3):
-    buyurtma.append(input(f"{n+1}-taom:").lower())
+# menu = {
+#     'osh':15000,
+#     'mastava':12000,
+#     'non':3000,
+#     'shashlik':16000,
+#     'manti':6000,
+#     'norin':9000,
+#     'xonim':5000,
+#     'salat':4000
+# }
+# print("3 ta buyurtma bering:")
+# buyurtma = []
+# for n in range(3):
+#     buyurtma.append(input(f"{n+1}-taom:").lower())
+#
+# for taom in buyurtma:
+#     if taom in menu:
+#         print(f"{taom.title()} {menu[taom]} so'm")
+#     else:
+#         print(f"Kechirasiz, bizda {taom} yo'q")
 
-for taom in buyurtma:
-    if taom in menu:
-        print(f"{taom.title()} {menu[taom]} so'm")
-    else:
-        print(f"Kechirasiz, bizda {taom} yo'q")
 
 
 
